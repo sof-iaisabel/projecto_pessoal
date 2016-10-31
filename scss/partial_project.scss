@@ -26,14 +26,41 @@ h2 {
   letter-spacing: 3px;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+}
+
 img {
   width: auto;
   height: 100%;
+  margin-left:20px;
+  margin-right: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.imagem {
+  display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+}
+
+.azul {
+display: flex;
+justify-content: flex-end;
+align-self: flex-end;
+
 }
 
 footer {
 font-family: 'Roboto', serif;
-font-size: 14px;
+font-size: 12px;
 margin-top: 20px;
-margin-bottom: 20px;
+margin-bottom: 40px;
+margin-left: 60px;
 }
